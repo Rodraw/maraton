@@ -23,21 +23,20 @@
 
 @section('content')
   
-<div class="header header-filter" style="background-image: url({{ asset('/img/PantallaPrincipal.png')}});">
+<div class="header" {{-- style="background-image: url({{ asset('/img/instrucciones2.png')}});" --}}>
  
 
-    <div class="container">
+    <div class="container2">
         <div class="row">
-            <div class="col-md-12">
-                <h4><strong>Objetivo del material:</strong> Fortalecer el proceso de enseñanza - aprendizaje enfocado a diversos temas y asignaturas teóricas, mediante la utilización de una herramienta educativa, interactiva y lúdica, que motive la participación e incentive la mejora en el rendimiento académico de los usuarios.
-                </h4>
+            <div class="col-md-8">
+                <h1>Instrucciones para el/la profesor </h1>
+                <h4>Bienvenido/a profesor (a) al juego de maratón de conocimientos. Para iniciar, deberá preparar las preguntas para colocar en cada uno de los apartados correspondientes.
+                Asimismo, es importante colocar el número de opciones de respuesta solicitados y seleccionar la correcta.
+                Es necesario incluir una breve retroalimentación a cada una de las preguntas, puesto que aparecerá cuando el estudiante se haya equivocado. Lo anterior, permitirá que el proceso de enseñanza-aprendizaje se desarrolle de manera pertinente y adecuada.
 
-                <h4>
-                <Strong>Competencia:</Strong> Identifica conceptos y procesos teóricos, con base en el uso pertinente y ético del software educativo, a fin de facilitar su proceso de enseñanza-aprendizaje.
                 </h4>
-                <br />
-                <a href="{{ route('login') }}" class="btn btn-danger btn-raised btn-lg">
-                    <i class="fa fa-play"></i> Empezar
+                <a href="{{ url('/') }}" class="btn btn-danger btn-raised btn-li">
+                    <i class="fa fa-play"></i>
                 </a>
             </div>
         </div>
@@ -45,17 +44,17 @@
 </div>
 
 {{-- <div class="main main-raised">
-    <div class="container"> --}}
+    <div class="container">
 
-        {{-- <div class="section text-center section-landing">
+        <div class="section text-center section-landing">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="title">¿Por qué comprar en Uady Shop?</h2>
                     <h5 class="description">Nuestra variedad de productos te permiten una elección perfecta, además de que manejamos los precios más accesibles del mercado. !Checa y Compara¡</h5>
-                </div> --}}
-          {{--   </div> --}}
+                </div>
+            </div>
 
-           {{--  <div class="features">
+            <div class="features">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="info">

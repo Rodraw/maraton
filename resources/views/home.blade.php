@@ -23,21 +23,14 @@
 
 @section('content')
   
-<div class="header header-filter" style="background-image: url({{ asset('/img/PantallaPrincipal.png')}});">
+<div class="header" style="background-image: url({{ asset('/img/instrucciones.png')}});">
  
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h4><strong>Objetivo del material:</strong> Fortalecer el proceso de enseñanza - aprendizaje enfocado a diversos temas y asignaturas teóricas, mediante la utilización de una herramienta educativa, interactiva y lúdica, que motive la participación e incentive la mejora en el rendimiento académico de los usuarios.
-                </h4>
-
-                <h4>
-                <Strong>Competencia:</Strong> Identifica conceptos y procesos teóricos, con base en el uso pertinente y ético del software educativo, a fin de facilitar su proceso de enseñanza-aprendizaje.
-                </h4>
-                <br />
-                <a href="{{ route('login') }}" class="btn btn-danger btn-raised btn-lg">
-                    <i class="fa fa-play"></i> Empezar
+            <div class="col-md-8">
+                <a href="{{ url('/') }}" class="btn btn-danger btn-raised btn-lh">
+                    <i class="fa fa-play"></i>
                 </a>
             </div>
         </div>
