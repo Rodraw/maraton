@@ -29,7 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <a href="{{ url('/') }}" class="btn btn-danger btn-raised btn-lh">
+                <a href="{{ url('/index') }}" class="btn btn-danger btn-raised btn-lh">
                     <i class="fa fa-play"></i>
                 </a>
             </div>
