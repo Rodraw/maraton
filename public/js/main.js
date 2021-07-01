@@ -8,8 +8,8 @@ import Seleccion from './seleccion.js';
 
 export const config = {
     type: Phaser.AUTO,
-    width: 1024,
-    height: 780,
+    width: 1824,
+    height: 980,
     scale: {
         mode: Phaser.Scale.FIT,
         parent: 'game_content',

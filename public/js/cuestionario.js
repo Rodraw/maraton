@@ -1,4 +1,5 @@
 
+
 import { preguntas1, preguntas2 } from "./preguntas.js";
 var indice = 0;
 
